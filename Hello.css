@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  height: 45px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(70, 63, 63);
+  background-color: thistle;
+  box-shadow: 2px 6px 15px -6px rgba(0, 0, 0, 0.82);
+  /* -webkit-box-shadow: 2px 6px 15px -6px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 2px 6px 15px -6px rgba(0, 0, 0, 0.82); */
+}
+
+/* To Center div on screen  */
+.head {
+  height: 100vh;
+  width: 100vw;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  height: 500px;
+  width: 400px;
+  background-color: aliceblue;
+  box-shadow: 11px 15px 18px -6px rgba(74, 74, 74, 0.69);
+  border: 1px solid white;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.input_field {
+  display: flex;
+  margin: 30px 0 0 18%;
+  display: block;
+  line-height: 30px;
+}
+
+label {
+  font-size: 17px;
+}
+
+#user,
+#pass {
+  height: 20px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#login_btn {
+  margin-top: 5px;
+  height: 30px;
+  width: 50px;
+  background-color: thistle;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* .head {
+  height: 40px;
+  width: 100vw;
+  border: 1px solid black;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  margin: 10px;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.input_field {
+  display: block;
+} */
